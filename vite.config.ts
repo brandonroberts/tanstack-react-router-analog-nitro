@@ -15,6 +15,7 @@ export default defineConfig({
       prerender: {
         routes: ['/', '/about']
       },
+      ssr: true,
     }, { serveStatic: false })
   ],
 });
