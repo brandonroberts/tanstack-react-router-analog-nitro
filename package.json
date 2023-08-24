@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-router": "^0.0.1-beta.160",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tslib": "2.6.2"
   },
   "devDependencies": {
     "@analogjs/vite-plugin-nitro": "^0.2.0",
+    "@tanstack/react-start": "^0.0.1-beta.107",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",

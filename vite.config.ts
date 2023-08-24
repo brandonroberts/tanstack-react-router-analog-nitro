@@ -4,13 +4,17 @@ import nitro from '@analogjs/vite-plugin-nitro'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  root: '.',
   build: {
-    outDir: 'dist',
+    outDir: 'dist/client',
   },
   plugins: [
     react(),
     nitro({
-      ssr: false
-    })
+      entryServer: 'src/main.server.tsx',
+      prerender: {
+        routes: ['/', '/about']
+      },
+    }, { serveStatic: false })
   ],
 });
