@@ -1,8 +1,8 @@
 # TanStack React Router + Analog + Nitro
 
-This is an example application using TanStack React Router + Analog + Nitro that includes SSR and prerendering.
+This is an example application using [TanStack React Router](https://tanstack.com/router) + [Analog + Nitro](https://github.com/analogjs/analog/tree/main/packages/vite-plugin-nitro) that includes SSR and prerendering.
 
-The same application is from the TanStack React Router docs.
+The example application is from the TanStack React Router docs.
 
 ## Setup
 
